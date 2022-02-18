@@ -1,0 +1,23 @@
+{
+    "name": "bladeinsight/challenge",
+    "description": "BladeInsight challenge assignment",
+    "authors": [
+        {
+            "name": "Artur Alves",
+            "email": "artur.ze.alves@pm.me",
+            "homepage": "https://www.linkedin.com/in/arturzealves/"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "BladeInsight\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.4"
+    },
+    "require-dev": {
+        "phpspec/prophecy-phpunit": "^2.0",
+        "phpunit/phpunit": "^9.0"
+    }
+}
